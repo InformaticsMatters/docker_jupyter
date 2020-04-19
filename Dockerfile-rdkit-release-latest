@@ -1,5 +1,5 @@
 FROM jupyter/minimal-notebook
 MAINTAINER Tim Dudgeon <tdudgeon@informaticsmatters.com>
 
-RUN conda install -y -c rdkit rdkit
+RUN conda install -y -c conda-forge rdkit
 
